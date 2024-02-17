@@ -97,8 +97,10 @@ public class Main {
     }
 
     static void dua(int permen, int cucu){
-        int total = ((permen+cucu-1)/(cucu-1));
-        int jml = (permen+cucu-2)*total;
+        double total = permen-7+cucu-1;
+        double pembagi = cucu-1;
+        double operasi = total/pembagi;
+        double jml = (total-1)*operasi;
         System.out.println("NOMOR 2");
         System.out.println("Jumlah cara untuk membagikan permen = "+jml);
     }
